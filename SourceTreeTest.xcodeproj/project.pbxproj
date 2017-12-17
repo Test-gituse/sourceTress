@@ -15,6 +15,7 @@
 		047A19951FE6803F00142F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047A19931FE6803F00142F86 /* LaunchScreen.storyboard */; };
 		047A19A01FE6803F00142F86 /* SourceTreeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047A199F1FE6803F00142F86 /* SourceTreeTestTests.m */; };
 		047A19AB1FE6803F00142F86 /* SourceTreeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047A19AA1FE6803F00142F86 /* SourceTreeTestUITests.m */; };
+		047A19BA1FE6816200142F86 /* KuangJiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047A19B91FE6816200142F86 /* KuangJiaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		047A19A61FE6803F00142F86 /* SourceTreeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SourceTreeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047A19AA1FE6803F00142F86 /* SourceTreeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceTreeTestUITests.m; sourceTree = "<group>"; };
 		047A19AC1FE6803F00142F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047A19B81FE6816200142F86 /* KuangJiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KuangJiaViewController.h; sourceTree = "<group>"; };
+		047A19B91FE6816200142F86 /* KuangJiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KuangJiaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				047A19891FE6803F00142F86 /* AppDelegate.m */,
 				047A198B1FE6803F00142F86 /* ViewController.h */,
 				047A198C1FE6803F00142F86 /* ViewController.m */,
+				047A19B81FE6816200142F86 /* KuangJiaViewController.h */,
+				047A19B91FE6816200142F86 /* KuangJiaViewController.m */,
 				047A198E1FE6803F00142F86 /* Main.storyboard */,
 				047A19911FE6803F00142F86 /* Assets.xcassets */,
 				047A19931FE6803F00142F86 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047A19BA1FE6816200142F86 /* KuangJiaViewController.m in Sources */,
 				047A198D1FE6803F00142F86 /* ViewController.m in Sources */,
 				047A198A1FE6803F00142F86 /* AppDelegate.m in Sources */,
 				047A19871FE6803F00142F86 /* main.m in Sources */,
@@ -514,6 +520,7 @@
 				047A19B11FE6803F00142F86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047A19B21FE6803F00142F86 /* Build configuration list for PBXNativeTarget "SourceTreeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				047A19B41FE6803F00142F86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		047A19B51FE6803F00142F86 /* Build configuration list for PBXNativeTarget "SourceTreeTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				047A19B71FE6803F00142F86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
