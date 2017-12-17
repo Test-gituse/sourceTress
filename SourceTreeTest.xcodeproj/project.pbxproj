@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040AD2371FE688DF00903AED /* Man1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040AD2361FE688DF00903AED /* Man1ViewController.m */; };
 		047A19871FE6803F00142F86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047A19861FE6803F00142F86 /* main.m */; };
 		047A198A1FE6803F00142F86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047A19891FE6803F00142F86 /* AppDelegate.m */; };
 		047A198D1FE6803F00142F86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047A198C1FE6803F00142F86 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040AD2351FE688DF00903AED /* Man1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Man1ViewController.h; sourceTree = "<group>"; };
+		040AD2361FE688DF00903AED /* Man1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man1ViewController.m; sourceTree = "<group>"; };
 		047A19821FE6803F00142F86 /* SourceTreeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SourceTreeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047A19861FE6803F00142F86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		047A19881FE6803F00142F86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				047A198C1FE6803F00142F86 /* ViewController.m */,
 				047A19B81FE6816200142F86 /* KuangJiaViewController.h */,
 				047A19B91FE6816200142F86 /* KuangJiaViewController.m */,
+				040AD2351FE688DF00903AED /* Man1ViewController.h */,
+				040AD2361FE688DF00903AED /* Man1ViewController.m */,
 				047A198E1FE6803F00142F86 /* Main.storyboard */,
 				047A19911FE6803F00142F86 /* Assets.xcassets */,
 				047A19931FE6803F00142F86 /* LaunchScreen.storyboard */,
@@ -285,6 +290,7 @@
 				047A198D1FE6803F00142F86 /* ViewController.m in Sources */,
 				047A198A1FE6803F00142F86 /* AppDelegate.m in Sources */,
 				047A19871FE6803F00142F86 /* main.m in Sources */,
+				040AD2371FE688DF00903AED /* Man1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
