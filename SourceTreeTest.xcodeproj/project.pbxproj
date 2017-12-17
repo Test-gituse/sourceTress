@@ -16,6 +16,7 @@
 		047A19A01FE6803F00142F86 /* SourceTreeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047A199F1FE6803F00142F86 /* SourceTreeTestTests.m */; };
 		047A19AB1FE6803F00142F86 /* SourceTreeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047A19AA1FE6803F00142F86 /* SourceTreeTestUITests.m */; };
 		047A19BA1FE6816200142F86 /* KuangJiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047A19B91FE6816200142F86 /* KuangJiaViewController.m */; };
+		047A19BD1FE686A600142F86 /* Man2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047A19BC1FE686A600142F86 /* Man2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		047A19AC1FE6803F00142F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047A19B81FE6816200142F86 /* KuangJiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KuangJiaViewController.h; sourceTree = "<group>"; };
 		047A19B91FE6816200142F86 /* KuangJiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KuangJiaViewController.m; sourceTree = "<group>"; };
+		047A19BB1FE686A600142F86 /* Man2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Man2ViewController.h; sourceTree = "<group>"; };
+		047A19BC1FE686A600142F86 /* Man2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				047A19931FE6803F00142F86 /* LaunchScreen.storyboard */,
 				047A19961FE6803F00142F86 /* Info.plist */,
 				047A19851FE6803F00142F86 /* Supporting Files */,
+				047A19BB1FE686A600142F86 /* Man2ViewController.h */,
+				047A19BC1FE686A600142F86 /* Man2ViewController.m */,
 			);
 			path = SourceTreeTest;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 			files = (
 				047A19BA1FE6816200142F86 /* KuangJiaViewController.m in Sources */,
 				047A198D1FE6803F00142F86 /* ViewController.m in Sources */,
+				047A19BD1FE686A600142F86 /* Man2ViewController.m in Sources */,
 				047A198A1FE6803F00142F86 /* AppDelegate.m in Sources */,
 				047A19871FE6803F00142F86 /* main.m in Sources */,
 			);
